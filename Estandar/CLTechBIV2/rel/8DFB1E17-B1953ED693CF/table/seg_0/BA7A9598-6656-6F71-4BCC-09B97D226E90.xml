@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA7A9598-6656-6F71-4BCC-09B97D226E90" name="Tab27">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<commentInRDBMS>Examenes Seguimiento de pruebas</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>Tab27</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab27C1" id="225F9093-FB6C-EA66-10E7-FFE5C0509B6E">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<commentInRDBMS>IdRegistroExamen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab25C3" id="6D7352F1-BA42-549C-034F-59AF31504351">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<commentInRDBMS>IdSede</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C77E4E-EC4A-95B0-000F-F80436BDDAE6" referredColumn="93AD7B50-D687-C044-E92D-7D53EA46204F"/>
+</associations>
+</Column>
+<Column name="Tab27C2" id="7B118A9D-EE59-8D96-FEE2-C9E1CB21D0B5">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<comment>Fecha en que fue creado el registro</comment>
+<commentInRDBMS>IdExamenLIS</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab27C3" id="F7BDEC1C-7232-13E7-24F0-4D91B6553CC6">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<comment>Usuario que crea el registro</comment>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab27C4" id="F267E705-75EC-D929-A53A-E93E0F778288">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-30 20:54:47 UTC</createdTime>
+<commentInRDBMS>IdUsuarioRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="256260BF-1A02-363B-042F-B772BC85DBD9" name="Tab27_PK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B118A9D-EE59-8D96-FEE2-C9E1CB21D0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58A321A1-DBB5-5DD8-D660-3347642D7FE1" name="Tab27_Tab25_FK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-26 21:25:41 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7352F1-BA42-549C-034F-59AF31504351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

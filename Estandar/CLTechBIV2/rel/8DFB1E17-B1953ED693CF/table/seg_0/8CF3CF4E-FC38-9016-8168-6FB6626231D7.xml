@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CF3CF4E-FC38-9016-8168-6FB6626231D7" name="Tab20">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-16 12:00:12 UTC</createdTime>
+<commentInRDBMS>Tablero Calificacion Servicio</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<abbreviation>Tab20</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab20C1" id="DC66EE27-6364-4C67-EE9E-BD3F64E4459C">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-27 20:16:49 UTC</createdTime>
+<commentInRDBMS>IdTurno</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab20C2" id="B8B310A2-2B74-56B7-CDFF-D61B0F1723E4">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-16 12:02:22 UTC</createdTime>
+<commentInRDBMS>IdSede</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab20C3" id="C8BB26B3-4C51-F6D3-A8F9-C3889946CB6C">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-16 17:02:30 UTC</createdTime>
+<commentInRDBMS>IdTipoAtencion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab20C4" id="E50D6A83-85A2-D2B9-DE1A-5213B8F8B548">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-16 12:02:22 UTC</createdTime>
+<commentInRDBMS>NombreTipoAtencion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab20C5" id="4FED52ED-92A6-67FC-91A4-A1B563146E63">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-16 12:05:10 UTC</createdTime>
+<commentInRDBMS>CalificacionTurno</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab20C6" id="38D7A401-4C46-D7AB-67E3-B3C64F0C7BCB">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-16 12:05:10 UTC</createdTime>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7618BE0-ACBC-A6B9-06DB-A776E7ECDBF3" name="Tab17">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-05 15:07:30 UTC</createdTime>
+<commentInRDBMS>GruposXServicios</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<abbreviation>Tab17</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab15C1" id="917825D1-B051-5941-CCCF-9AF73C526787">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-05 15:08:45 UTC</createdTime>
+<commentInRDBMS>IdGrupo</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3FCCF15-68E1-B368-88A7-02A88C00A444" referredColumn="5046537E-A31A-4AC7-C3B5-D47770F11C6D"/>
+</associations>
+</Column>
+<Column name="Tab13C1" id="CD7536B8-B475-913F-C115-F3B865591EE7">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-05 15:08:45 UTC</createdTime>
+<commentInRDBMS>IdServicio</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E2036A5-C708-1F59-7379-C1F721DB892C" referredColumn="16F9229F-EA7B-942D-8612-62CE077F8E59"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4885AC1D-E54A-C5C6-D8F9-8EA7BA09E59B" name="Tab17_Tab13_FK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-05 15:09:31 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD7536B8-B475-913F-C115-F3B865591EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A131A2-5A63-0AF6-5CD5-FDA7EBF69161" name="Tab17_Tab15_FK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-05 15:12:16 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="917825D1-B051-5941-CCCF-9AF73C526787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

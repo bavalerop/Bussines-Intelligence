@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F28D08CB-082F-81AA-02FE-6D3EF839A4CE" containerWithKeyObject="65FE206B-0B8B-8BEA-B401-9A89C5E78A03" localFKIndex="79665DD0-D5AF-F9AD-D175-BE912DE8FB34" name="Tab15_Tab11_FK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:17:15 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<referredTableLongName>Tab11</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>A279984A-52DC-D790-2667-09A5E4465E57</referredTableID>
+<keyObject>D22AC2D1-7792-2B1D-CB54-562E37304E2D</keyObject>
+<referredKeyID>D22AC2D1-7792-2B1D-CB54-562E37304E2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tab11C1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

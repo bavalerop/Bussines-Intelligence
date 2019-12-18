@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16EED50C-31BE-AD9E-58C2-703B5944911A" name="Tab31">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Tabla de Entrevista Especifica</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab31C1" id="DD650F56-9853-28A7-01E1-985D8A6132C6">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Id</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab23C1" id="350F5974-A550-736D-3654-527800BA62CF">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-06-21 19:24:43 UTC</createdTime>
+<commentInRDBMS>IdLab-Idresultado</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B64D412A-0288-FA1B-87D0-4E0078986A81" referredColumn="0D0A215C-CD10-0AD9-1BA2-040D11654B38"/>
+</associations>
+</Column>
+<Column name="Tab31C2" id="41E34BB7-E95F-34E4-3BFC-F68B995BC676">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-06-21 20:53:23 UTC</createdTime>
+<commentInRDBMS>IdLab</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C3" id="1755F67D-1716-72F0-9C7E-66CA650D26A0">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Id_Entrevista</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C4" id="66E1FBD5-543E-EB30-32E9-740ED7D767E8">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Id_Pregunta</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C5" id="91B0FBA8-D8E5-697C-AE1C-0D21A46368AF">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Pregunta</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C6" id="EF5FDCDE-8F58-D311-1EBF-E23E2D4E3C6E">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Id_Respuesta</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C7" id="A6F48D66-3E8D-C041-E96A-481BFD65969C">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Respuesta</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C8" id="8D420D06-65B2-98F8-0E30-200B804A59DE">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>RespuestaLibre</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C9" id="B8CF33C4-F826-1621-FD1F-C8B61C4D3165">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Usuario</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C10" id="17515DA6-5BCB-8EDC-3E66-358CCCE541D7">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Fecha_Entrevista</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C11" id="3E69B32F-CC77-07D1-3E17-85D08D62EB3C">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Hora_Entrevista</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C12" id="173133BB-EDFB-007F-7612-7ABB83F237BF">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>CodExamen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C13" id="72B75CD6-6974-4A6E-517A-27C61EB3E4DA">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Examen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C14" id="12FA55AA-62A5-17AD-E9CC-92813E9C222C">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Resultado</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C15" id="8B8E5329-DBA9-2744-625B-70B9D3A80053">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>Estado_Examen_Valor_Referencia</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C16" id="34C07587-22CD-F2D5-C301-3062F68553CE">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>EsPorPanico</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab31C17" id="38405A83-2CD8-5562-B8F7-B4604F110C48">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<commentInRDBMS>IdOrdenDetalle</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19D06DE7-12AA-A071-CFF0-D3E11726DA0A" name="Tab31_PK">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD650F56-9853-28A7-01E1-985D8A6132C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5212941D-6725-2314-84D6-06983F426908" name="Tab31_Tab23_FK">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-02-28 15:03:24 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="350F5974-A550-736D-3654-527800BA62CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A92C846E-1EB4-EF31-DEA4-DE07D526943F" name="Tab24">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:15:22 UTC</createdTime>
+<commentInRDBMS>Tabla de Relaciones del cudo Estadistico</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab24C1" id="A96F8F68-9E18-6F7D-1408-F5092C4E5DFA">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:21:30 UTC</createdTime>
+<commentInRDBMS>Id</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C1" id="DA65A608-DB9F-8656-A2C0-1A4C77DFE622">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:21:30 UTC</createdTime>
+<commentInRDBMS>IdHistoria</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD896D5-45F4-BA65-3616-A06F93D71C40" referredColumn="EF918B13-99B1-7A75-694F-78DF2F0BD930"/>
+</associations>
+</Column>
+<Column name="Tab22C1" id="364FCB7F-AA25-14FB-C28E-1694BB55C865">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:21:30 UTC</createdTime>
+<commentInRDBMS>Orden</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6DD3F96-F2E4-15F4-F3CF-539CAF65AE7A" referredColumn="3CE59F9E-6990-FEEE-DE2A-D101D836DC39"/>
+</associations>
+</Column>
+<Column name="Tab23C53" id="FDF48B82-7EC4-847B-0B9C-3E0D93FCF60C">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:21:30 UTC</createdTime>
+<commentInRDBMS>IdOrdenDetalle</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE4564E6-00C3-6F54-33A4-BD1D1F1894FC" referredColumn="8D045A36-4479-99B6-476C-F174426AE9D8"/>
+</associations>
+</Column>
+<Column name="Tab24C2" id="1AA2AF6A-A3C9-BBA0-7CE2-BF721D5CC32E">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:47:28 UTC</createdTime>
+<commentInRDBMS>Precio Paciente</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab24C3" id="7331E298-8270-57F1-DD31-A9C77E75ADB4">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:47:28 UTC</createdTime>
+<commentInRDBMS>Precio Empresa</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB0DAA74-2ECF-38D8-CA43-072F9808A19A" name="Tab24_PK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 16:21:30 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A96F8F68-9E18-6F7D-1408-F5092C4E5DFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F27DCBE-42E2-0C71-DE33-6949EF0F57DC" name="Tab24_Tab21_FK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 17:14:54 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA65A608-DB9F-8656-A2C0-1A4C77DFE622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="390A9D81-FC5F-372E-AD3A-5C9461525BAD" name="Tab24_Tab23_FK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 17:16:11 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF48B82-7EC4-847B-0B9C-3E0D93FCF60C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="012F8B59-C5B0-5841-94E0-60732CD90936" name="Tab24_Tab22_FK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-11-19 17:17:27 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="364FCB7F-AA25-14FB-C28E-1694BB55C865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

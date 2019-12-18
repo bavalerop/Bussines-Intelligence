@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79FC249F-65F3-E4E7-C514-F142C10E451E" name="Tab21">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>Tabla de Historias del cudo Estadistico</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<abbreviation>Tab21</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab21C1" id="EF918B13-99B1-7A75-694F-78DF2F0BD930">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>IdHistoria</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C2" id="75615D19-DDDE-6D02-1895-DA6F4A000916">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>Historia</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C3" id="0CC0AE05-BD0C-3A79-FD05-B6CA2DD3EDFC">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-06-21 19:52:01 UTC</createdTime>
+<commentInRDBMS>idlab-idhistoria</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C4" id="3AF7C1B7-1401-98B3-3ECC-BACF1BACB3F8">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-06-21 19:52:01 UTC</createdTime>
+<commentInRDBMS>id_lab</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C5" id="24A9261F-6699-4755-62A8-EB28E9B43345">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-06-25 20:35:42 UTC</createdTime>
+<commentInRDBMS>Nombre_Laboratorio_origen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C6" id="0094BA56-3557-947E-57CE-21E056D3CF40">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>Nombre</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C7" id="0015A476-D20F-E67B-B68B-F62E7BFFE393">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>Apellido</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C8" id="AAD86B1E-F000-5746-5E86-9A5870A37853">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>Genero</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C9" id="8FDB347E-6C8B-E00E-3D59-11DBEAB156EC">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 13:51:15 UTC</createdTime>
+<commentInRDBMS>FechaNacimiento</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C10" id="C8F96336-CD78-AC5C-FA07-CA61EF23E3A3">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<commentInRDBMS>Fecha Creacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C11" id="D77E3A92-F0F9-FFBD-9E97-17E97B933EE9">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<commentInRDBMS>Usuario Creacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C12" id="8DB4CF9C-D2F9-39E0-8636-97F066FCF2E9">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<commentInRDBMS>Fecha Modificacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C13" id="120E206B-C890-F9B8-94A5-BB922CBAB8C6">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<commentInRDBMS>Usuario Modificacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C14" id="11D14351-16E0-7AF1-89E4-2992E8209879">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<comment>Codigo del Demografico</comment>
+<commentInRDBMS>CodDemo1</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab21C15" id="AEB2085B-60AE-40DC-278A-24073274D0B3">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<comment>Contenido Demografico</comment>
+<commentInRDBMS>Demo1</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="..." id="69ADCB96-F5AE-4DEE-CE88-EEE17181176F">
+<createdBy>bvalero</createdBy>
+<createdTime>2019-06-21 19:04:24 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5F6D42C-2907-8CE1-9135-7F130EB8AFBF" name="Tab21_PK">
+<createdBy>cpena</createdBy>
+<createdTime>2018-08-10 14:58:53 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CC0AE05-BD0C-3A79-FD05-B6CA2DD3EDFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

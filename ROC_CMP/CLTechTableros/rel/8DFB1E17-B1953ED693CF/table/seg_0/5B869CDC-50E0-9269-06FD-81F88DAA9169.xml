@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B869CDC-50E0-9269-06FD-81F88DAA9169" name="Tab29">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<commentInRDBMS>Configuracion de campos en tablero de seguimiento de pruebas</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>Tab29</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab29C1" id="A52485C6-4669-C4C6-2916-A9BB8243043A">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<commentInRDBMS>IdRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab25C1" id="43C83DED-4CF1-D252-6ECE-22E7EAC1CC07">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<commentInRDBMS>IdConfiguración</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06C92587-382C-BA60-64EC-046EF46ECEBD" referredColumn="93AD7B50-D687-C044-E92D-7D53EA46204F"/>
+</associations>
+</Column>
+<Column name="Tab29C2" id="77876085-520A-F75B-2E9E-87ADF1C74FB3">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<comment>Fecha en que fue creado el registro</comment>
+<commentInRDBMS>IdConfiguracion Campo</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab29C3" id="FE45A073-63C7-6E53-3003-DFB77D656D56">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<comment>Usuario que crea el registro</comment>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab29C4" id="0947FBA9-7FFD-391D-7837-D8C0D75E3F24">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:31:57 UTC</createdTime>
+<commentInRDBMS>IdUsuarioRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD0F1E88-0C9A-22E1-F922-C3C8C005A4B5" name="Tab29_PK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A52485C6-4669-C4C6-2916-A9BB8243043A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3480EB94-F100-AF49-AA3D-B9E0C55BF2DA" name="Tab29_Tab25_FK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2018-12-06 16:11:10 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C83DED-4CF1-D252-6ECE-22E7EAC1CC07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA2D9312-2078-3B0A-CCA9-4B550C760F5C" name="Tab10">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>Tablero Tiempos Oportunidad por Examen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>Tab10</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab10C1" id="AE62B5D5-439C-3ED8-F3CD-7ECAFA1C932E">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>NúmeroOrden</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C2" id="8F49859A-DF9F-41A3-3B94-61E9D5867FAC">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>IdServicioLIS</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C3" id="768CAD6A-E17C-A9D4-4A34-8A6C7ED5C290">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>CodigoServicio</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C4" id="140770B5-09D7-5200-7CBD-6F59775EABB0">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>NombreServicio</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C5" id="C46063DB-CD28-7C1C-78A7-2D226769FBDC">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>IdExamenLIS</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C6" id="8CA402E6-D559-BD6C-6A4E-A4CAD851CF10">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>CodigoExamen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C7" id="ECA4D661-16FA-1EEE-0426-F9CFF80AB97F">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>NombreExamen</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C8" id="C2350D57-68BC-1D8F-3ECF-F5889350E72E">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>IdSedeLIS</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C9" id="BAE56444-B815-BCC0-EC1E-08144D6F8A78">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>NombreSede</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C10" id="C04AD244-D708-8885-F971-E11DE8C9C185">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>TipoOrden</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C11" id="5C642987-9663-2E15-D112-18C9EBD0044E">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<comment>Nombre completo del paciente</comment>
+<commentInRDBMS>NombrePaciente</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C12" id="B7A8A768-EB10-4580-1616-59FF03612DEA">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<comment>Fecha en la que se creo la orden</comment>
+<commentInRDBMS>FechaIngresoOrden</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C13" id="5623AB18-CC26-AAC4-5F55-A4CD0966E862">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<comment>Bandera que indica si ya fue validado el examen</comment>
+<commentInRDBMS>Validado</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C14" id="ACAFAA85-4117-B167-135D-4B70E24D1ADB">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<comment>Fecha en que se realizo la validacion del examen</comment>
+<commentInRDBMS>FechaValidacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C15" id="520F4331-9D19-3D82-6DE8-2952D62BBDFB">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>TiempoEsperado</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C16" id="EDC8B8F8-43E3-A297-2B5A-F17B51901E1D">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>TiempoMaximo</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab10C17" id="3C42AD79-1D05-92B9-522D-70F2A249415A">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-27 15:28:11 UTC</createdTime>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

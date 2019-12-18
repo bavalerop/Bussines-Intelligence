@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65FE206B-0B8B-8BEA-B401-9A89C5E78A03" name="Tab15">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 19:37:50 UTC</createdTime>
+<commentInRDBMS>Grupos Validacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<abbreviation>Tab15</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab15C1" id="5046537E-A31A-4AC7-C3B5-D47770F11C6D">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:09:47 UTC</createdTime>
+<commentInRDBMS>IdGrupo</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab15C2" id="44490B79-399A-0143-92E0-345529E3DA85">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:09:47 UTC</createdTime>
+<commentInRDBMS>NombreGrupo</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab11C1" id="FA3F8DC9-B425-E357-6629-E62EE2D9BEF3">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:09:47 UTC</createdTime>
+<commentInRDBMS>IdConfiguracion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F28D08CB-082F-81AA-02FE-6D3EF839A4CE" referredColumn="BA996B25-42B2-5432-F6B8-E714F6A956CF"/>
+</associations>
+</Column>
+<Column name="Tab15C3" id="7E50741F-BC2B-44AF-2FA6-D5AA0FE7D71F">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:09:47 UTC</createdTime>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab15C4" id="6852DFDF-2B1D-9323-6891-A68F55D2967C">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:17:15 UTC</createdTime>
+<commentInRDBMS>UsuarioRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7611BF0E-3C51-890C-F80B-4E9348E4365C" name="Tab15_PK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-05 15:10:45 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5046537E-A31A-4AC7-C3B5-D47770F11C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79665DD0-D5AF-F9AD-D175-BE912DE8FB34" name="Tab15_Tab11_FK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-28 20:17:15 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA3F8DC9-B425-E357-6629-E62EE2D9BEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

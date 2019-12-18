@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48CF2E0A-0ED5-5496-D33C-35B1911F2FB8" name="Tab34">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:04:26 UTC</createdTime>
+<commentInRDBMS>Configuracion Tablero Sala de Cirugía</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>Tab34</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab34C1" id="934F9FEA-7FE5-CBDD-39C9-AB533C330F3B">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:04:26 UTC</createdTime>
+<commentInRDBMS>IdConfiguracion</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<notNullConstraintName>NNC_Tab05_Tab05C1</notNullConstraintName>
+</Column>
+<Column name="Tab34C2" id="E7E52783-B668-0F31-BF0F-4C757529DF08">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:04:26 UTC</createdTime>
+<commentInRDBMS>Nombre</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C3" id="4AF93315-B00F-9CEB-54DA-F7791BA23070">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:04:26 UTC</createdTime>
+<commentInRDBMS>IdSedeLIS </commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C4" id="BAC2797B-7706-271B-BB4F-2160DA6CD8C1">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:19:27 UTC</createdTime>
+<commentInRDBMS>Ruta Servicio</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C5" id="7FBE900A-C249-3225-8FF0-E60628DF08CB">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:04:26 UTC</createdTime>
+<commentInRDBMS>Tiempo Paginacion</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C6" id="BE31882A-2F41-DF41-1DEC-8EAC181E5424">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:33:09 UTC</createdTime>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C7" id="A0D556C1-D298-D0F5-30C9-3912DD04DA89">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:33:09 UTC</createdTime>
+<commentInRDBMS>UsuarioRegistro</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C8" id="5C91B798-9822-F2AA-F862-F4B2DAF545A5">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:33:09 UTC</createdTime>
+<commentInRDBMS>FechaModificacion</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C9" id="CD12EC54-F617-190F-C2BA-AD5EF11A9926">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:33:09 UTC</createdTime>
+<commentInRDBMS>UsuarioModificacion</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C10" id="E6D313DC-3815-D0E9-543C-CEF845CD9864">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-08-01 21:10:34 UTC</createdTime>
+<commentInRDBMS>Usuario de servicio</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C11" id="B04BB6EF-CAEE-2985-0A06-08260D80BC62">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-08-01 21:10:34 UTC</createdTime>
+<commentInRDBMS>Contraseña servicio</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab34C12" id="A41CC724-C9B4-A676-9FFD-0E1DF61EB718">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-08-02 16:38:52 UTC</createdTime>
+<commentInRDBMS>Tiempo Consulta</commentInRDBMS>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ED68D1F-AE91-4A4E-6ED6-13A071C3DB4B" name="Tab34_PK">
+<createdBy>jcasallas</createdBy>
+<createdTime>2019-07-24 16:04:26 UTC</createdTime>
+<ownerDesignName>CLTechBIV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="934F9FEA-7FE5-CBDD-39C9-AB533C330F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

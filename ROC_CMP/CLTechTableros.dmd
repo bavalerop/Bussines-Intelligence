@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CLTechTableros" id="80B568AD-A5F3-55EA-F3CF-03C1F8E44A27" version="3.5">
+<createdBy>ugonzalez</createdBy>
+<createdTime>2018-02-14 16:51:31 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>80B568AD-A5F3-55EA-F3CF-03C1F8E44A27</designId>
+</OSDM_Design>

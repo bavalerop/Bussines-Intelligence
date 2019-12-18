@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD51D5A0-C6D5-86CD-6600-4A7903526F34" name="Tab13">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:26:19 UTC</createdTime>
+<commentInRDBMS>Servicio Validacion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<abbreviation>Tab13</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab11C1" id="90528C3C-576F-1AEE-6D99-26B4C54E739F">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:27:53 UTC</createdTime>
+<commentInRDBMS>IdConfiguracion</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CB88E9C-E567-0EBF-7BEE-56AD5C7AE3BC" referredColumn="BA996B25-42B2-5432-F6B8-E714F6A956CF"/>
+</associations>
+</Column>
+<Column name="Tab13C1" id="16F9229F-EA7B-942D-8612-62CE077F8E59">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:27:53 UTC</createdTime>
+<commentInRDBMS>IdServicioLIS</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab13C2" id="B761D045-B7A8-B142-4BA9-8D28EE7A114F">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:27:53 UTC</createdTime>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab13C3" id="5D2FBE4C-AA37-6BEF-A387-4BC65FC443A8">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:27:53 UTC</createdTime>
+<commentInRDBMS>IdUsuarioRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab13C4" id="6B4B2AB9-A489-6415-71EE-C38D9FD5ED30">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-04-06 20:24:27 UTC</createdTime>
+<commentInRDBMS>Estado</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE707EB4-E860-F7A6-6B2D-DFE7D1215669" name="Tab13_PK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:29:27 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16F9229F-EA7B-942D-8612-62CE077F8E59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2CE2541-8525-534A-9181-BDB614F19544" name="Tab13_Tab11_FK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-03-27 12:30:12 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90528C3C-576F-1AEE-6D99-26B4C54E739F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

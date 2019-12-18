@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="981CCADE-6C2E-8BB6-4109-6CEE0313B367" name="Tab03">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-15 16:01:40 UTC</createdTime>
+<commentInRDBMS>Servicios Toma Muestra Hospitalaria</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>Tab03</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tab01C1" id="D9BDD32A-F02C-11DE-DC60-7635F19AF3C7">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-15 16:03:51 UTC</createdTime>
+<commentInRDBMS>IdConfiguración</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DC90BAE-7F96-ECF1-3A7D-A5A630C2C1A6" referredColumn="8DCFA70C-CEE2-4F81-3E94-EFEC5D0560D7"/>
+</associations>
+</Column>
+<Column name="Tab03C1" id="14BE910A-7B2C-C2E8-93A3-CC714AAE097C">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-15 16:04:35 UTC</createdTime>
+<commentInRDBMS>IdServicioLIS</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab03C2" id="D737DB53-1DD0-A020-671C-95FEDA5F0684">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-15 16:05:31 UTC</createdTime>
+<comment>Fecha en que fue creado el registro</comment>
+<commentInRDBMS>FechaRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tab03C3" id="C592A07C-6C69-B5F8-2320-4C5F22ABDD45">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-15 16:06:01 UTC</createdTime>
+<comment>Usuario que crea el registro</comment>
+<commentInRDBMS>IdUsuarioRegistro</commentInRDBMS>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57967BB7-CB41-51B4-CB58-EA7625105ED4" name="Tab03_PK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-23 14:34:24 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14BE910A-7B2C-C2E8-93A3-CC714AAE097C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BACA7F2A-170B-113D-1ED2-92CE71FF66F8" name="Tab03_Tab01_FK">
+<createdBy>mgonzalez</createdBy>
+<createdTime>2018-02-15 19:00:17 UTC</createdTime>
+<ownerDesignName>CLTechTableros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9BDD32A-F02C-11DE-DC60-7635F19AF3C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
